@@ -6,7 +6,7 @@
   <title>Către Project Manager – Invitație în echipă</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&family=Great+Vibes&family=Gelasio:wght@700&family=Roboto:wght@600;700&display=swap" rel="stylesheet">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -68,20 +68,33 @@
     .footer-logo-item {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 14px;
     }
     .footer-logo-item img {
-      height: 40px;
+      height: 50px;
       width: auto;
     }
-    .footer-logo-item span {
-      font-size: 0.85rem;
+    .footer-logo-item .brand-text .brand-first {
+      display: block;
+      font-family: 'Gelasio', serif;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #2f7973;
+      letter-spacing: 2px;
+      line-height: 1.2;
+    }
+    .footer-logo-item .brand-text .brand-second {
+      display: block;
+      font-family: 'Roboto', sans-serif;
+      font-size: 0.8rem;
       font-weight: 600;
-      color: #5a4a3a;
-      letter-spacing: 0.5px;
+      color: #1d2b5d;
+      letter-spacing: 1.5px;
+      line-height: 1.2;
+      text-transform: uppercase;
     }
     .footer-logo-peviitor {
-      height: 30px;
+      height: 25px;
       width: auto;
     }
   </style>
@@ -129,7 +142,10 @@
     <div class="footer-logos">
       <div class="footer-logo-item">
         <img src="https://oportunitatisicariere.ro/assets/Header/logo.png" alt="Asociația Oportunități și Cariere">
-        <span>ASOCIAȚIA OPORTUNITĂȚI ȘI CARIERE</span>
+        <div class="brand-text">
+          <span class="brand-first">ASOCIAȚIA</span>
+          <span class="brand-second">OPORTUNITĂȚI ȘI CARIERE</span>
+        </div>
       </div>
       <img class="footer-logo-peviitor" src="https://peviitor.ro/assets/logo-DV2JQkir.svg" alt="peviitor.ro">
     </div>
